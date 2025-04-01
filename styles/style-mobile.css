@@ -1,0 +1,174 @@
+@media screen and (max-width: 600px) {
+	.container {
+		width: 100%;
+		padding: 0;
+		padding-bottom: 1rem;
+	}
+
+	.sectionTitle {
+		font-size: 1.5rem;
+	}
+
+	.sectionData {
+		margin-top: 2rem;
+	}
+
+	nav {
+		padding: 1rem;
+	}
+
+	nav .container {
+		width: 100%;
+		padding: 1rem;
+	}
+
+	nav img {
+		width: 80%;
+	}
+
+	.burger {
+		display: block;
+	}
+
+	nav .menu {
+		position: absolute;
+		right: 0px;
+		height: 50vh;
+		top: 10vh;
+		background-color: var(--color-background);
+		flex-direction: column;
+		padding: 0rem 1rem;
+		box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.2);
+		border-radius: 3px;
+		transform: translateX(110%);
+		transition: all 300ms ease-in;
+		z-index: 1;
+	}
+
+	nav .menu a {
+		width: 100%;
+		pad: 1rem;
+		border-bottom: 1px solid var(--dark-color-20);
+		display: flex;
+		justify-content: center;
+	}
+
+	.home .robo {
+		display: none;
+	}
+
+	.home .greetingSection {
+		margin-top: 3rem;
+	}
+
+	.greetingSection .greeting,
+	.currentEmpSection .current,
+	.currentEmpSection .timeEmployed {
+		font-size: 1rem;
+	}
+
+	.greetingSection .name {
+		font-size: 2.3rem;
+		line-height: 2.1rem;
+		margin-top: 7px;
+		margin-left: -3px;
+		letter-spacing: 0rem;
+	}
+
+	.greetingSection .title {
+		font-size: 1.2rem;
+		margin-left: -2px;
+	}
+
+	.currentEmpSection .currentEmployer {
+		font-size: 1.5rem;
+	}
+
+	.currentEmpSection .timeEmployed {
+		margin-top: 0px;
+	}
+
+	.job .jobTitle,
+	.edu .degree,
+	.skill .category,
+	.certificate .name,
+	.projects .title {
+		font-size: 1.4rem;
+	}
+
+	.job .jobDuration,
+	.job .employer,
+	.edu .school,
+	.certificate .title,
+	.projects .tech {
+		font-size: 1rem;
+	}
+
+	.job .text,
+	.edu .degreeDescription,
+	.skill .technologies,
+	.certificate .text,
+	.projects .subtitle,
+	.projects .description {
+		font-size: 0.9rem;
+	}
+
+	.eduAndSkills .container {
+		flex-direction: column;
+	}
+
+	.eduAndSkills .container > * {
+		padding: 0;
+	}
+
+	.skills {
+		margin-top: 4rem;
+	}
+
+	footer .container {
+		flex-direction: column;
+		border: none;
+	}
+
+	footer .container ul,
+	footer ul li {
+		margin-top: 1rem;
+	}
+
+	footer .container > * {
+		padding: 2rem 0rem;
+		border-top: 1px solid var(--color-accent-50);
+	}
+
+	.goTop {
+		height: 40px;
+		width: 40px;
+	}
+
+	.goTop img {
+		width: 20px;
+	}
+}
+
+/* styles only for screens supporting hover states*/
+@media (hover: hover) {
+	nav ul a:hover {
+		border-bottom: 4px solid var(--color-accent);
+		color: var(--dark-color-100);
+	}
+
+	nav img:hover {
+		width: 105%;
+	}
+
+	footer ul a:hover {
+		text-decoration: underline;
+		text-decoration-thickness: 3px;
+		text-decoration-color: var(--color-accent);
+		text-decoration-skip-ink: none;
+	}
+
+	.goTop:hover {
+		background-color: var(--color-accent-80);
+	}
+}
