@@ -35,7 +35,6 @@ The website is structured into the following main sections:
 **Technology Stack:**
 - **Front-End:** HTML, CSS, JavaScript, Bootstrap/React (if applicable)
 - **Back-End (if any):** Node.js, Express, or PHP
-- **Database (if applicable):** MySQL, MongoDB
 - **Hosting Platform:** GitHub Pages, Netlify, Vercel, or custom domain hosting
 
 **Features:**
