@@ -1,0 +1,485 @@
+<html lang="en" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style-mobile.css">
+    <script src="scripts/script.js"></script>
+    <title>Tushar jagadale</title>
+
+</head>
+
+<style>
+    .home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* Align items to the left */
+        height: 100vh;
+        /* Set the height to 100% of the viewport height */
+        padding: 12rem;
+        /* Add some padding for spacing */
+    }
+
+    .greetingSection {
+        margin-top: auto;
+        /* Push the greeting section to the bottom */
+    }
+
+    .greeting,
+    .name,
+    .title {
+        font-size: 5rem;
+        /* Adjust the font size as desired */
+        line-height: 10000;
+        /* Adjust the line-height as desired */
+        margin: 0;
+        /* Remove default margins */
+    }
+</style>
+<script>
+    window.addEventListener('scroll', function () {
+        var navbar = document.getElementById('navbar');
+        if (window.scrollY > 0) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+    });
+
+    goTop = () => {
+        const goTopButton = document.querySelector('.goTop');
+        goTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            })
+        })
+    }
+
+    goTop();
+
+
+</script>
+
+<body>
+
+    <nav id="navbar" class="navbar">
+        <div class="container">
+            <ul class="menu">
+                <a href="Tushar Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+                <a href="#projects" rel="noopener noreferrer">Projects</a>
+                <a href="mailto:tusharsjagadale201@gmail.com" rel="noopener noreferrer">Email</a>
+                <a href="https://github.com/TUSHHH01" target="_blank" rel="noopener noreferrer">Github</a>
+                <a href="https://www.linkedin.com/in/tushar-jagadale-822156239/" target="_blank"
+                    rel="noopener noreferrer">LinkedIn</a>
+                <div class="toggleSwitch" title="Click to change mode">
+                    <input type="checkbox" name="toggle" id="toggle" class="toggle">
+                    <label for="toggle">
+                        <img src="assets/moon-fill.svg" alt="moon icon" class="icon">
+                        <img src="assets/sun-fill.svg" alt="sun icon" class="icon">
+                        <div class="ball"></div>
+                    </label>
+                </div>
+                <a href=""> </a>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+    <section class="home" id="home">
+        <div class="container">
+            <img src="icons/robot.png" class="robo" title="beep-beep-bop">
+            <div class="greetingSection">
+                <div class="greeting"><br><br><br>
+                    <br><br><br><br>Hi, I am
+                </div>
+                <div class="name">
+                    Tushar Jagadale
+                </div>
+                <div class="title">
+                    Software Development Engineer II
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <section class="eduAndSkills" id="eduAndSkills">
+        <div class="container">
+            <div class="education">
+                <div class="sectionTitle">
+                    About Me
+                </div>
+                <div class="sectionData">
+                    <div class="edu">
+
+
+                        <div class="degreeDescription">
+                            <div class="technologies">
+                                <img src="img/Tushar.jpg" height="300px" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="skills">
+                <div class="sectionData">
+                    <div class="skill">
+                        <div class="degreeDescription">
+                            <div class="technologies">
+                                <ul>
+                                    <li>
+                                        <div class="text" style="padding: 40;">
+                                            <i class="bi-caret-right-fill"></i>
+                                            Hey there! <br><br>
+
+                                            I'm Tushar Jagdale, a dynamic software architect crafting digital
+                                            experiences with a
+                                            Bachelor's degree in Computer Applications (BCA). My journey in technology
+                                            is akin to
+                                            composing a symphony, where each line of code is a note in the melody of
+                                            innovation. I
+                                            orchestrate solutions that harmonize seamlessly with user needs, leveraging
+                                            my expertise in
+                                            programming and web development. Agile methodologies are my conductor's
+                                            baton, guiding teams
+                                            towards brilliance with each sprint. <br> <br>
+
+                                            Beyond the screen, I'm an explorer at heart, finding inspiration in every
+                                            corner of the
+                                            globe. Whether it's spiking a volleyball on the sandy shores, hitting
+                                            boundaries on the
+                                            cricket pitch, or traversing uncharted digital landscapes, I thrive on the
+                                            thrill of
+                                            discovery.
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+
+
+
+
+
+
+    <section class="eduAndSkills" id="eduAndSkills">
+        <div class="container">
+            <div class="education">
+                <div class="sectionTitle">
+                    Education
+                </div>
+                <div class="sectionData">
+                    <div class="edu">
+                        <div class="degree">
+                            Bachelor of Computer Applications
+                        </div>
+                        <div class="school">
+                            Savitribai Phule Pune University
+                        </div>
+                        <div class="degreeDescription">
+                            Currently pursuing a BCA degree with a primary focus on mastering Java, Angular, Node.js,
+                            and database technologies. Actively engaged in expanding expertise to drive innovative
+                            solutions and contribute effectively to the IT landscape.
+                        </div>
+                    </div>
+                    <div class="edu">
+                        <div class="degree">
+                            High School Education
+                        </div>
+                        <div class="school">
+                            Brihan Maharashtra College of Commerce
+                        </div>
+                        <div class="degreeDescription">
+                            Completed higher school education with distinction, demonstrating a strong foundation in
+                            mathematics, science, and computer studies. Consistently excelled in academic endeavors,
+                            showcasing a keen aptitude for analytical thinking and problem-solving.
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="skills">
+                <div class="sectionTitle">
+                    Skills
+                </div>
+                <div class="sectionData">
+                    <div class="skill">
+                        <div class="category">
+                            Programming Languages
+                        </div>
+                        <div class="technologies">
+                            Java , JavaScript , Python , C , C++ , Angular , PHP
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="category">
+                            Front-End Technologies
+                        </div>
+                        <div class="technologies">
+                            ReactJS, AngularJS, JavaScript, TypeScript, HTML, CSS,
+                            Bootstrap
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="category">
+                            Software Management Tools
+                        </div>
+                        <div class="technologies">
+                            Github, Bitbucket, Git Workflows, Agile
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="category">
+                            Learning Technologies
+                        </div>
+                        <div class="technologies">
+                            AWS, Spring Boot, RESTful Web Services, Microservices, Kafka, Hibernate, JDBC, JPA, PL/SQL,
+                            JUnit4, Postman, Designing APIs, Design Patterns, SOLID ,Bitbucket pipeleines, Scrum,
+                            Kanban, Trello,
+                            Slack
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="certifications" id="certifications">
+        <div class="container">
+            <div class="sectionTitle">
+                Certifications
+            </div>
+            <div class="sectionData">
+                <div class="certificate">
+                    <div class="name">
+                        <a href="https://www.credly.com/badges/cd0a9e37-60a1-46e5-84f6-12ab9e7913ea/public_url"
+                            target="_blank" rel="noopener noreferrer">
+                            Cloud Computing Fundamentals
+                        </a>
+                    </div>
+                    <div class="title">
+                        Issued by IBM SkillsBuildr, April 2024
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="text">
+                                <i class="bi-caret-right-fill"></i>
+                                Demonstrates knowledge of cloud computing concepts, including cloud services, deployment
+                                models, virtualization, orchestration, and security.<br>
+                                Understands the benefits of cloud computing for both users and businesses.<br>
+                                Aware of job prospects and necessary skills in the field of cloud computing.<br>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="certifications" id="certifications">
+        <div class="container">
+            <!-- <div class="sectionData"> -->
+            <div class="certificate">
+                <div class="name">
+                    <a href="https://drive.google.com/file/d/1Aspo0FNQ-dzhDr7coa35Ig1TchpETZzJ/view?usp=sharing"
+                        target="_blank" rel="noopener noreferrer">
+                        Technology Consulting
+                    </a>
+                </div>
+                <div class="title">
+                    Job Simulation Certification
+                </div>
+                <ul>
+                    <li>
+                        <div class="text">
+                            <i class="bi-caret-right-fill"></i>
+                            <ul>
+                           <li> Completed a job simulation designing a client product for Accenture Australia's public
+                            sector team. <br>
+                            Developed interview strategies and questions to align client requirements with the project's
+                            design.<br>
+                            Created a detailed process flow and design presentation for client review.<br>
+                            Wrote user stories to pivot the project into an agile approach and keep the design in-line
+                            with customer values.
+                        </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+
+
+    </section>
+
+    <section class="certifications" id="certifications">
+        <div class="container">
+            <!-- <div class="sectionData"> -->
+            <div class="certificate">
+                <div class="name">
+                    <a href="https://drive.google.com/file/d/1ZfRwFPsISN67xBTHgAWu6vVFJDYo68OM/view?usp=sharing"
+                        target="_blank" rel="noopener noreferrer">
+                        SQL and Relational Databases
+                    </a>
+                </div>
+                <div class="title">
+                    SQL and Databases 101 Certification
+                </div>
+                <ul>
+                    <li>
+                        <div class="text">
+                            <i class="bi-caret-right-fill"></i>
+                            Acquired fundamental knowledge of SQL language and relational database management systems
+                            Covered data querying, manipulation, and database design principles
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+
+
+    </section>
+
+
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="sectionTitle">
+                Projects
+            </div>
+            <!-- <div class="subtitle">
+                This is the fun part...
+            </div> -->
+            <div class="sectionData">
+                <div class="project">
+                    <div class="title">
+                        <a href="https://library-management-bytushar.netlify.app" target="_blank"
+                            rel="noopener noreferrer">
+                            BMCC Library Management
+                        </a>
+                    </div>
+                    <div class="tech">
+                        <!-- API Integration,  -->
+                        AngularJS, HTML, CSS, JavaScript , Json, Bootstrap4
+                    </div>
+                    <div class="description">
+                        In my project, I developed a user-friendly interface for a library management system. The
+                        interface features tabs for displaying library rules and regulations, available books with
+                        sorting options, book borrowing and returning functionality, and a feature for users to request
+                        books not currently available in the library. <br> </div>
+                    <span>Username -Tushar , Password - Tushar00 </span>
+                </div>
+            </div>
+            <div class="project">
+                <div class="title">
+                    <a href="https://ticket-book-karo.netlify.app/#/" target="_blank" rel="noopener noreferrer">
+                        Ticket Book karo
+                    </a>
+                    <i class="bi-exclamation-circle"
+                        title="Project is under construction. The core piece of app was just finished. Meanwhile checkout the test version"></i>
+                </div>
+                <div class="tech">
+                    JavaScript , AngularJS, HTML, CSS , Json, Bootstrap4
+                </div>
+                <div class="description">
+                    Our group project revolves around a dynamic front page showcasing trending and upcoming movies.
+                    Users can easily book tickets by signing into their accounts, selecting their preferred theater,
+                    and proceeding to book tickets seamlessly. Additionally, our interface features tabs displaying
+                    all movie titles categorized by genre and a convenient contact form for user inquiries.
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="navigation">
+                <div class="title">Navigation</div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <!-- <li><a href="#experience">Experience</a></li> -->
+                    <li><a href="#eduAndSkills">Education & Skills</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </div>
+            <div class="media">
+                <div class="title">Contact</div>
+                <ul>
+                    <li><a href="Tushar Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
+                    <li><a href="mailto:tusharsjagadale201@gmail.com" target="_blank"
+                            rel="noopener noreferrer">Email</a></li>
+                    <!-- <li><a href="https://github.com/TUSHHH01" target="_blank" rel="noopener noreferrer">Github</a> -->
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/tushar-jagadale-822156239/" target="_blank"
+                            rel="noopener noreferrer">LinkedIn</a></li>
+                </ul>
+            </div>
+            <div class="disclaimer">
+                <div>
+                    <div class="footerLogo">
+                        <img src="assets/logo.jpeg" alt="navbar logo" height="100px">
+                    </div>
+                    <div class="proclamation">
+                        Designed & Developed by
+                        <div>Tushar Jagadale</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <button class="goTop" title="Go to the top">
+        <img src="assets/arrow-up.svg" alt="">
+    </button>
+
+    <script src="scripts/script.js"></script>
+    <script>
+
+
+        goTop = () => {
+            const goTopButton = document.querySelector('.goTop');
+            goTopButton.addEventListener('click', () => {
+                window.scrollTo({
+                    top: 0,
+                    behavior: "smooth"
+                })
+            })
+        }
+
+        goTop();
+
+
+    </script>
+    <style>
+
+    </style>
+</body>
+
+</html>
